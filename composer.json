@@ -1,0 +1,25 @@
+{
+    "name": "unlobosolitario/larafile",
+    "description": "A laravel package for File Management",
+    "type": "package",
+    "authors": [
+        {
+            "name": "unlobosolitario",
+            "email": "none@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "unlobosolitario\\larafile\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "unlobosolitario\\larafile\\FileServiceProvider"
+            ]
+        }
+    }
+}
